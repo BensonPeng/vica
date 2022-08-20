@@ -6,13 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-
-  title = 'helloworld';
-
-  ngOnInit(): void {
-
-    $('#bu').on('click', function () {
-      $('.aa').css('color', 'red');
-    });
-  }
+  title = 'TodoMVC'
+  constructor() { }
+  ngOnInit() { }
 }
