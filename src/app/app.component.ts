@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'TodoMVC'
+  title = 'TodoMVC';
+  placeholder ='What needs to be done actually?';
   constructor() { }
   ngOnInit() { }
 }
